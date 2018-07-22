@@ -1,28 +1,24 @@
 # Punter
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/punter`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Punter allows you to quickly inspect, manipulate your data using raw SQL as well as ORM. It uses ActiveRecord as ORM engine
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'punter'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
 
     $ gem install punter
 
 ## Usage
 
-TODO: Write usage instructions here
+* for sqlite3
+
+    $punter path_to_your_db
+This will start new irb console with required methods.  
+
+## How it works
+
+* uses activerecord ORM
+* irb console
+## TODOs
 
 ## Development
 
