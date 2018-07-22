@@ -2,7 +2,9 @@
 
 Punter allows you to quickly inspect, manipulate your data using raw SQL as well as ORM. It uses ActiveRecord as ORM engine
 
-![demo.svg](termtosvg_afdv3y8o.svg)
+<p align="center">
+  <img width="600" src="https://cdn.rawgit.com/mohitmun/punter/ce455a7/termtosvg_afdv3y8o.svg">
+</p>
 
 ## Installation
 
