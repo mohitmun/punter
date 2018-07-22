@@ -2,6 +2,8 @@
 
 Punter allows you to quickly inspect, manipulate your data using raw SQL as well as ORM. It uses ActiveRecord as ORM engine
 
+![demo.svg](termtosvg_afdv3y8o.svg)
+
 ## Installation
 
 
@@ -19,6 +21,8 @@ This will start new irb console with required methods.
 * uses activerecord ORM
 * irb console
 ## TODOs
+
+[ ] Multiple connections
 
 ## Development
 

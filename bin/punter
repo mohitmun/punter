@@ -2,6 +2,7 @@
 
 require "bundler/setup"
 require "punter"
+require "awesome_print"
 
 # You can add fixtures and/or initialization code here to make experimenting
 # with your gem easier. You can also use a different console, if you like.
@@ -12,4 +13,5 @@ require "punter"
 
 require "irb"
 Punter.init
+AwesomePrint.irb!
 IRB.start

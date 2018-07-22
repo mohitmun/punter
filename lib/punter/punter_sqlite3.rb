@@ -14,7 +14,7 @@ module PunterSqlite3
     tables = ActiveRecord::Base.connection.tables
     puts "tables found: #{tables}"
     tables.each do |table_name|
-      puts "generating model for #{table_name}"
+      $logger.debug "generating model for #{table_name}"
       variable = table_name.titleize.gsub(" ", "")
       klass = Class.new(ActiveRecord::Base)
       # ...maybe evaluate some code in the context of the new, anonymous class
